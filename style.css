@@ -15,6 +15,7 @@ p{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .main{
     display: flex;
@@ -24,7 +25,11 @@ section{
     padding-left: 10%;
 }
 .divide img{
-    width: 75%;
+    width: 658px;
+    height: 747px;
+    left: 500px;
+    top: 82px;
+    
 }
 .link-up{
     text-decoration: none;
@@ -33,10 +38,28 @@ section{
     border-radius: 30px;
     color: white;
     font-size: 20px;
+    font-weight: bold;
 
 }
 .back-banner{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
+    background-size: 100%;
 }
-
+.divide-second{
+    width: 40%;
+    padding-left: 10%;
+    
+}
+.divide-second img{
+    width: 400px;
+    height: 562px;
+    padding-top: 70px;
+}
+.about{
+    font-size: 50px;
+    margin-top: 150px;
+}
+.p-res{
+    color: black;
+}
