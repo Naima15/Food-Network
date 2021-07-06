@@ -67,11 +67,12 @@ p{
 
 .recipies {
     width: 100%;
-    height: 50vh;
+    height: 850px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: white;
+    display: flex;
 
 }
 
@@ -136,4 +137,131 @@ p{
     color: #575757;
     font-size: 50px;
     margin: 10px;
+}
+
+.contact {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:white;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.contact_heading {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+.contact_heading h2 {
+    font-size: 50px;
+    color: #575757;
+    padding: 30px 0;
+    margin: 0;
+
+
+}
+
+.contact_box {
+    display: flex;
+    width:60%;
+    height:500px;
+}
+
+.cont_left {
+    width: 400px;
+    height:450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.address h3, .address .fas{
+    font-size:25px;
+    margin:5px;
+    color:#575757;
+}
+
+.address p{
+    color:#575757;
+    font-size:15px;
+}
+
+.phone h3, .phone .fas{
+    font-size:25px;
+    margin:5px;
+    color:#575757;
+}
+.phone p{
+    color:#575757;
+    font-size:15px;
+}
+.email h3, .email .fas{
+    font-size:25px;
+    margin:5px;
+    color:#575757;
+}
+.email p{
+    color:#575757;
+    font-size:15px;
+}
+.cont_right {
+    width: 400px;
+    height:450px;
+    background-color: #536162;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.cont_right h2 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.cont_form {
+    text-align: center;
+}
+
+.form-input {
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    margin: 8px 0;
+    outline: none;
+}
+
+.form_textarea {
+    resize: none;
+    min-height: 80px;
+    border-radius: 10px;
+}
+
+.form_btn {
+   
+    width: 300px;
+    height: 40px;
+    border-radius:15px;
+    border:none;
+    background-color:#1b1717;
+    cursor: pointer;
+    color:white;
+}
+.form_btn:hover{
+    background-color:#333030;
+    transition: 0.52s;
+
 }
